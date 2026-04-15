@@ -1,0 +1,28 @@
+{
+  "name": "Nexus Titan V6",
+  "short_name": "NT-V6",
+  "description": "Deep Vision Research & Image Reconstruction Engine",
+  "version": "6.0.0",
+  "protocol": "Universal 600",
+  "author": "TechFixer",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "local_storage_limit": "500MB",
+  "offline_access": true,
+  "hardware_profile": {
+    "ram_optimization": "active",
+    "swap_priority": "high",
+    "render_mode": "delta-time"
+  },
+  "permissions": [
+    "local_file_system",
+    "canvas_manipulation",
+    "memory_flush"
+  ],
+  "security": {
+    "zero_external_api": true,
+    "amanatdari_status": "unlocked"
+  }
+}
